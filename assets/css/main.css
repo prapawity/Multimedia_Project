@@ -1552,10 +1552,16 @@
 
 		}
 /*video*/
+	@media screen and (max-width: 2048px){
+		iframe{
+			width: 60em;
+			height: 30em;
+		}
+	}
 
 	@media screen and (max-width: 1680px){
 		iframe{
-			width: 60em;
+			width: 50em;
 			height: 30em;
 		}
 	}
@@ -1569,8 +1575,14 @@
 
 	@media screen and (max-width: 980px){
 		iframe{
+			width: 50em;
+			height: 35em;
+		}
+	}
+	@media screen and (max-width: 768px){
+		iframe{
 			width: 40em;
-			height: 20em;
+			height: 30em;
 		}
 	}
 
