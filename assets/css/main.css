@@ -1850,8 +1850,8 @@
 
 	@media screen and (max-width: 1280px){
 		iframe{
-			width: 50em;
-			height: 25em;
+			width: 50%;
+			height: 25%;
 		}
 	}
 
