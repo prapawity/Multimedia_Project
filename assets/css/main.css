@@ -1551,3 +1551,39 @@
 				}
 
 		}
+/*video*/
+
+	@media screen and (max-width: 1680px){
+		iframe{
+			width: 60em;
+			height: 30em;
+		}
+	}
+
+	@media screen and (max-width: 1280px){
+		iframe{
+			width: 50em;
+			height: 25em;
+		}
+	}
+
+	@media screen and (max-width: 980px){
+		iframe{
+			width: 40em;
+			height: 20em;
+		}
+	}
+
+	@media screen and (max-width: 736px){
+		iframe{
+			width: 30em;
+			height: 15em;
+		}
+	}
+
+	@media screen and (max-width: 480px){
+		iframe{
+			width: 20em;
+			height: 10em;
+		}
+	}
