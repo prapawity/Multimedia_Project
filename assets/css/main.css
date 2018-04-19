@@ -1599,3 +1599,15 @@
 			height: 10em;
 		}
 	}
+	#googleMap {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+	#googleMap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+}

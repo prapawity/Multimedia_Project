@@ -31,9 +31,21 @@
 				<p>Wat Phra That Doi Suthep is the most important temple in Chiang Mai, Thailand. Built in the early 19th Buddhist century, the beauty of Wat Phra That Doi Suthep is marked by seven-headed serpent statues that line the stairs to the temple where a Chiang Saen style golden pagoda and all its exquisite Lanna architecture is situated.</p>
 			</article>
 		</section>
+		<div id="googleMap"></div>
 	</div>
 
 <!-- Scripts -->
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(18.80504,98.91987),
+    zoom:15,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHmZGKNTnE6D5eQh1yGLxvFKWjvNX2rzs&callback=myMap"></script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
