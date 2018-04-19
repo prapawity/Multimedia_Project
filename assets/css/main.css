@@ -274,7 +274,7 @@
 	}
 
 		a:hover {
-			color: #EF6480 !important;
+			color: #1E90FF !important;
 		}
 
 	strong, b {
@@ -426,8 +426,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			transform:  scale(1.5); !important;
-			box-shadow: inset 0 0 0 2px #EF6480;
+			transform:  scale(1.2); !important;
+			box-shadow: inset 0 0 0 2px #1E90FF;
 		}
 
 		input[type="submit"]:active,
