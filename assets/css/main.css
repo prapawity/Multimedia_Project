@@ -1583,7 +1583,7 @@
 
 	@media screen and (max-width: 480px){
 		iframe{
-			width: 20em;
+			width: 18em;
 			height: 10em;
 		}
 	}
