@@ -1043,7 +1043,7 @@
 /* Item */
 
 	.item {
-		padding: 3em 3em 1em 3em;
+		padding: 3em 6em 1em 6em;
 		background-color: #ffffff;
 		border-radius: 4px;
 		text-align: center;
@@ -1167,7 +1167,7 @@
 		margin: -2em 0 0 -2em;
 	}
 
-		.items .item {
+		.items {
 			margin: 2em 0 0 2em;
 			width: calc(50% - 2em);
 		}
@@ -1231,7 +1231,7 @@
 /* Wrapper */
 
 	#wrapper {
-		width: 64em;
+		width: 65em;
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 4em 0 2em 0;
