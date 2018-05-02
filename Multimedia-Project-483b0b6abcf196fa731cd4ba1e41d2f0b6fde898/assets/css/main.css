@@ -1,9 +1,5 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
-@font-face {
-    font-family: myFirstFont;
-    src: url("https://fonts.googleapis.com/css?family=Hind:700|Nunito+Sans:700|Quicksand:700");
-}
 
 
 
@@ -1047,7 +1043,7 @@
 /* Item */
 
 	.item {
-		padding: 3em 6em 1em 6em;
+		padding: 3em 3em 1em 3em;
 		background-color: #ffffff;
 		border-radius: 4px;
 		text-align: center;
@@ -1171,7 +1167,7 @@
 		margin: -2em 0 0 -2em;
 	}
 
-		.items {
+		.items .item {
 			margin: 2em 0 0 2em;
 			width: calc(50% - 2em);
 		}
@@ -1235,7 +1231,7 @@
 /* Wrapper */
 
 	#wrapper {
-		width: 65em;
+		width: 64em;
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 4em 0 2em 0;
@@ -1377,7 +1373,7 @@
 				padding: 0 0.5em 0.25em 0.5em;
 				border-bottom: solid 2px #ffffff;
 				font-weight: 200;
-				font-family: Benton Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+				font-family: "Pacifico", cursive;
 				text-transform: none;
 				letter-spacing: 0;
 			}
@@ -1532,6 +1528,7 @@
 		}
 
 		#footer:before {
+			content: '';
 			display: inline-block;
 			width: 6em;
 			height: 2px;
@@ -1613,7 +1610,4 @@
     top: 0;
     left: 0;
     width: 100% !important;
-}
-.video-present{
-	background-color: black
 }
