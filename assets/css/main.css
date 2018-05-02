@@ -1,5 +1,9 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
+@font-face {
+    font-family: myFirstFont;
+    src: url("https://fonts.googleapis.com/css?family=Hind:700|Nunito+Sans:700|Quicksand:700");
+}
 
 
 
@@ -1373,7 +1377,7 @@
 				padding: 0 0.5em 0.25em 0.5em;
 				border-bottom: solid 2px #ffffff;
 				font-weight: 200;
-				font-family: "Pacifico", cursive;
+				font-family: Benton Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 				text-transform: none;
 				letter-spacing: 0;
 			}
@@ -1609,4 +1613,7 @@
     top: 0;
     left: 0;
     width: 100% !important;
+}
+.video-present{
+	background-color: black
 }

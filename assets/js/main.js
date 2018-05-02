@@ -55,7 +55,8 @@
 					$img.remove();
 
 			});
-
+			$( document ).ready(function)
+		$(".dropdown-trigger").dropdown();
 	});
 
 })(jQuery);
