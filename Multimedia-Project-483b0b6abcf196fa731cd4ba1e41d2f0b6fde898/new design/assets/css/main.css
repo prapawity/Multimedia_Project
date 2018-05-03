@@ -4366,7 +4366,7 @@
 		position: center;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:767px){
+	@media screen and (max-width:736px){
 		.boxer{
 			width: 15em;
 			height: 15em
