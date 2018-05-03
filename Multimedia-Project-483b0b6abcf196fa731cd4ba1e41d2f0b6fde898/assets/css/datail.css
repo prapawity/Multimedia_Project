@@ -1168,7 +1168,7 @@
 		margin: -2em 0 0 -2em;
 	}
 
-		.items .item{
+		.items {
 			margin: 2em 0 0 2em;
 			width: calc(50% - 2em);
 		}
@@ -1289,7 +1289,7 @@
 		-ms-flex-direction: column;
 		flex-direction: column;
 		padding: 8em 0 6em 0;
-		background-image: url("../../images/banner3.jpg");
+		background-image: url("../../images/pic01.jpg");
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
