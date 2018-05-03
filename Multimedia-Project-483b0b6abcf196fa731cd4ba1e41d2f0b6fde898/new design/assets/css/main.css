@@ -4359,3 +4359,10 @@
 			height: 10em;
 		}
 	}
+	.boxer{
+		width: 20em;
+		height: 15em;
+		background-color: transparent;
+		position: center;
+		margin: 0 auto;
+	}
